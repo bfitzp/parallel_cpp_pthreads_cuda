@@ -5,8 +5,15 @@
 #include <iostream>
 #include <pthread.h>
 
+#include "ImageProperties.h"
+#include "ImageTools.h"
+#include "Pixel.h"
+
 int main()
 {
+    std::string filename_In = "cpp_logo.bmp";
+    std::string filename_Out = "cpp_logo_h.bmp";
+
     std::cout << "Hello World!\n";
 }
 

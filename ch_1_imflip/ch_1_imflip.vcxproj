@@ -148,9 +148,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ch_1_imflip.cpp" />
+    <ClCompile Include="ImageProperties.cpp" />
+    <ClCompile Include="ImageTools.cpp" />
+    <ClCompile Include="Pixel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="cpp_logo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageProperties.h" />
+    <ClInclude Include="ImageTools.h" />
+    <ClInclude Include="Pixel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
